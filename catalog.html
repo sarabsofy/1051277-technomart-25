@@ -46,54 +46,58 @@
 	        <li class="breadcrumbs-current">ПЕРФОРАТОРЫ</li>
       </ul>
       <form class="filter" method="" action="#">
-      	<h2>ПРОИЗВОДИТЕЛИ:</h2>
-      	<ul class="brands">
-      		<li>
-      			<label>
-      			<input type="checkbox" name="BOSCH" checked>
-      			BOSCH
-      		  </label>
-      		</li>
-      		<li>
-      			<label>
-      			<input type="checkbox" name="интерскол">
-      			ИНТЕРСКОЛ
-      		  </label>
-      		</li>
-      		<li>
-      			<label>
-      			<input type="checkbox" name="makita" checked>
-      			MAKITA
-      		  </label>
-      		</li>
-      		<li>
-      			<label>
-      			<input type="checkbox" name="dewalt">
-      			DEWALT
-      		  </label>
-      		</li>
-      		<li>
-      			<label>
-      			<input type="checkbox" name="hitachi">
-      			HITACHI
-      		  </label>
-      		</li>
+      	<fieldset>
+      	<legend>ПРОИЗВОДИТЕЛИ:</legend>
+      	<ul class="brand">
+      	<li>
+	      	<label>
+	      		<input type="checkbox" name="BOSCH" checked>
+	      		BOSCH
+	      		</label>
+	      	</li>
+      	<li>
+	      	<label>
+	      		<input type="checkbox" name="интерскол">
+	      		ИНТЕРСКОЛ
+	      	 </label>
+	      	</li>
+	     <li>
+	      	<label>
+	      		<input type="checkbox" name="makita" checked>
+	      		MAKITA
+	      	    </label>
+	      	</li>
+      	<li>
+	      	<label>
+	      		<input type="checkbox" name="dewalt">
+	      		DEWALT
+	      		</label>
+	      	</li>
+      	<li>
+	      	<label>
+	      		<input type="checkbox" name="hitachi">
+	      		HITACHI
+	      	    </label>
+	      	</li>
+      	  </ul>
+      </fieldset>
+      <fieldset>
+      	<legend>ПИТАНИЕ:</legend>
+      	<ul class="network">
+      	<li>
+	      	<label>
+	      		<input type="radio" name="radio" value="battery" checked>
+	      		АККУМУЛЯТОРНЫЕ
+	      		</label>
+	      	</li>
+      	<li>
+	      	<label>
+	      		<input type="radio" name="radio" value="network">
+	      		СЕТЕВЫЕ
+	      		</label>
+	      	</li>
       	</ul>
-      	<h2>ПИТАНИЕ:</h2>
-      	<ul class="radio">
-      		<li>
-      			<label>
-      				<input type="radio" name="radio" value="battery" checked>
-      				АККУМУЛЯТОРНЫЕ
-      			</label>
-      		</li>
-      		<li>
-      			<label>
-      				<input type="radio" name="radio" value="network">
-      				СЕТЕВЫЕ
-      			</label>
-      		</li>
-      	</ul>
+      </fieldset>
       	<button type="submit">Показать</button>
       </form>
       <section class="catalog">
@@ -262,9 +266,9 @@
 		Все права защищены
 		</p>
 		<ul>
-          <li><a class="social-button" href="#"><img src="img/icon-vk.svg" width="26" height="15" alt="Вконтакте"></a></li>
-          <li><a class="social-button" href="#"><img src="img/icon-fb.svg" width="12" height="22" alt="Фейсбук"></a></li>
-          <li><a class="social-button" href="#"><img src="img/icon-insta.svg" width="21" height="21" alt="Инстаграм"></a></li>
+          <li><a class="social-button" href="#" aria-label="Вконтакте"><img src="img/icon-vk.svg" width="26" height="15" alt="Вконтакте"></a></li>
+          <li><a class="social-button" href="#" aria-label="Фейсбук"><img src="img/icon-fb.svg" width="12" height="22" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#" aria-label="Инстаграм"><img src="img/icon-insta.svg" width="21" height="21" alt="Инстаграм"></a></li>
         </ul>
         <p class="connect">
         	Обратная связь:
@@ -282,7 +286,7 @@
 		<img src="img/icon-mark.svg" width="40" height="40">
 		<p>Товар добавлен в корзину!</p>
 		<a href="basket.html">ОФОРМИТЬ ЗАКАЗ</a>
-		<button type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+		<a href="catalog.html">ПРОДОЛЖИТЬ ПОКУПКИ</a>
 	</div>
   </body>
 </html>
