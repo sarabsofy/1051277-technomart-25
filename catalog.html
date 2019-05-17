@@ -45,6 +45,57 @@
 	        <li><a href="#">ИНСТРУМЕНТ</a></li>
 	        <li class="breadcrumbs-current">ПЕРФОРАТОРЫ</li>
       </ul>
+      <form class="filter" method="" action="#">
+      	<h2>ПРОИЗВОДИТЕЛИ:</h2>
+      	<ul class="brands">
+      		<li>
+      			<label>
+      			<input type="checkbox" name="BOSCH" checked>
+      			BOSCH
+      		  </label>
+      		</li>
+      		<li>
+      			<label>
+      			<input type="checkbox" name="интерскол">
+      			ИНТЕРСКОЛ
+      		  </label>
+      		</li>
+      		<li>
+      			<label>
+      			<input type="checkbox" name="makita" checked>
+      			MAKITA
+      		  </label>
+      		</li>
+      		<li>
+      			<label>
+      			<input type="checkbox" name="dewalt">
+      			DEWALT
+      		  </label>
+      		</li>
+      		<li>
+      			<label>
+      			<input type="checkbox" name="hitachi">
+      			HITACHI
+      		  </label>
+      		</li>
+      	</ul>
+      	<h2>ПИТАНИЕ:</h2>
+      	<ul class="radio">
+      		<li>
+      			<label>
+      				<input type="radio" name="radio" value="battery" checked>
+      				АККУМУЛЯТОРНЫЕ
+      			</label>
+      		</li>
+      		<li>
+      			<label>
+      				<input type="radio" name="radio" value="network">
+      				СЕТЕВЫЕ
+      			</label>
+      		</li>
+      	</ul>
+      	<button type="submit">Показать</button>
+      </form>
       <section class="catalog">
 		<h2>ПЕРФОРАТОРЫ</h2>
 		<ul class="catalog-list">
@@ -224,5 +275,14 @@
         <a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
       </p>
 	</footer>
+	<div class="popup-basket">
+		<button type="button" aria-label="Закрыть">
+			<img src="img/icon-close.svg" width="21" height="21">
+		</button>
+		<img src="img/icon-mark.svg" width="40" height="40">
+		<p>Товар добавлен в корзину!</p>
+		<a href="basket.html">ОФОРМИТЬ ЗАКАЗ</a>
+		<button type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+	</div>
   </body>
 </html>
