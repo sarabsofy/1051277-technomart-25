@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap&subset=cyrillic" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 	<header class="site-header">
 		<a class="site-header-logo">
 			<img src="img/logo.png" width="110" height="20" alt="Логотип интернет-магазина «Техномарт»">
 		</a>
-		<a href="#" class="search">Поиск:</a>
-		<a href="#">Закладки:<span class="marks">0</span></a>
-		<a href="#">Корзина:<span class="basket">0</span></a>
+		<form method="post" action="">
+			<a href="#"><img src="img/icon-search.svg"></a>
+			<input type="search" name="search" value="Поиск:" class="search">
+		</form>
+		<a href="#" class="marks">Закладки:<span class="marks-counter">0</span></a>
+		<a href="#" class="basket">Корзина:<span class="basket-counter">0</span></a>
 		<a href="#" class="order">Оформить заказ</a>
 	</header>
 	<main class="container">
