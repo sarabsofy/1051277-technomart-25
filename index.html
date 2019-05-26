@@ -9,24 +9,26 @@
   </head>
   <body>
 	<header class="site-header">
+		<div class="container">
 		<a class="site-header-logo">
 			<img src="img/logo.png" width="110" height="20" alt="Логотип интернет-магазина «Техномарт»">
 		</a>
-		<form method="post" action="">
+		<form method="post" action="" class="search">
 			<a href="#"><img src="img/icon-search.svg"></a>
-			<input type="search" name="search" value="Поиск:" class="search">
+			<input type="search" name="search" value="Поиск:" class="search-input">
 		</form>
 		<a href="#" class="marks">Закладки:<span class="marks-counter">0</span></a>
 		<a href="#" class="basket">Корзина:<span class="basket-counter">0</span></a>
 		<a href="#" class="order">Оформить заказ</a>
+	</div>
 	</header>
-	<main class="container">
 		<header class="main-header">
+			<div class="container">
 			<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-			<p class="main-header-contacts">
+			<div class="main-header-contacts">
 				<a href="tel:+78125550555" class="number">+7(812) 555-05-55</a>
-				г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-			</p>
+				<p>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+			</div>
 			<div class="login">
 				<a class="button" href="#">Войти</a>
 				<a class="button" href="#">Регистрация</a>
@@ -43,7 +45,9 @@
 					
 				</ul>
 			</nav>
+		</div>
 		</header>
+	<main class="container">
 		<section class="about-us">
 		<section class="company">
 			<h2>КОМПАНИЯ «ТЕХНОМАРТ»</h2>
@@ -93,8 +97,9 @@
 			</div>
 		</section>
 		</section>
+	</main>
 		<footer class="main-footer">
-			<div>
+		   <div class="container">
 			<a class="main-footer-logo">
 			<img src="img/logo.png" width="137" height="22" alt="Логотип интернет-магазина «Техномарт»">
 		    </a>
@@ -106,10 +111,10 @@
 				<li><a href="contacts.html">Контакты</a></li>
 			</ul>
 		</div>
-			<div>
-			<p>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+		   <div class="container">
+			<div class="main-footer-contacts">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 			 +7(812) 555-05-55
-			</p>
+			</div>
 			<ul class="offers">
 				<li><a href="#">Материалы</a></li>
 				<li><a href="#">Техника</a></li>
@@ -119,8 +124,8 @@
 		</div>
 
 		</footer>
-	</main>
 	<footer class="site-footer">
+	  <div class="container">
 		<p>©2010-2017 Компания «Техномарт» 
 		Все права защищены
 		</p>
@@ -137,6 +142,7 @@
   		 Разработано-
         <a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
       </p>
+     </div>
 	</footer>
   </body>
 </html>

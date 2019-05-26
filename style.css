@@ -25,9 +25,8 @@ ul{
 	background-color:#293449;
 }
 
-.search{
-	color:#ffffff;
-	background-color:#293449;
+.search-input{
+
 }
 .search:hover{
 	background-color:#212a3a;
@@ -40,9 +39,10 @@ ul{
 .site-header .marks:hover,
 .site-header .marks:focus,
 .site-header .basket:hover,
-.site-header .basket:focus,
+.site-header .basket:focus{
 	background-color:#212a3a;
 }
+
 .site-header .marks:active,
 .site-header .basket:active{
 	color:#575c65;
@@ -51,18 +51,22 @@ ul{
 .site-header .order{
 	background-color:#63a63e;
 }
+
 .site-header .order:hover,
 .site-header .order:focus{
 	background-color:#5fbb2d;
 }
+
 .site-header .order:active{
 	color:#a8c29a;
 	background-color:#518534;
 }
+
 .site-header-logo,
 .main-footer-logo{
 	background-color:#ee3643;
 }
+
 .site-header-logo:hover,
 .site-header-logo:focus{
 	background-color:#ca2c37;
