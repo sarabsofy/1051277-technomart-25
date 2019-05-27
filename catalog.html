@@ -13,7 +13,10 @@
 		<a class="site-header-logo" href="index.html">
 			<img src="img/logo.png" width="110" height="20" alt="Логотип интернет-магазина «Техномарт»">
 		</a>
-		<a href="#" class="search">Поиск:</a>
+		<form method="post" action="" class="search">
+			<a href="#"><img src="img/icon-search.svg"></a>
+			<input type="search" name="search" value="Поиск:" class="search-input">
+		</form>
 		<a href="#">Закладки:<span class="marks">0</span></a>
 		<a href="#">Корзина:<span class="basket">10</span></a>
 		<a href="#" class="order">Оформить заказ</a>
@@ -22,16 +25,18 @@
 		<header class="main-header">
 		  <div class="container">
 			<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-			<p class="main-header-contacts">
+			<div class="main-header-contacts">
 				<a href="tel:+78125550555" class="number">+7(812) 555-05-55</a>
-				г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-		   </p>
+				<p>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+		   </div>
+		   <div class="personal">
 			<div class="login">
 				<a class="username" href="#">Равшан Джамшутович</a>
-			<div class="personal">
-				<a href="#">Мои заказы</a>
-				<a href="#">Личный кабинет</a>
 			</div>
+			<p>
+				<a href="#" class="orders">Мои заказы</a>
+				<a href="#" class="orders">Личный кабинет</a>
+			</p>
 		</div>
 			<nav class="main-menu">
 				<ul>

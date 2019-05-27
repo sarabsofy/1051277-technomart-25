@@ -18,6 +18,8 @@ ul{
 }
 
 .site-header{
+	min-height:40px;
+
 	font-size:17px;
 	line-height:18px;
 	color:#ffffff;
@@ -74,6 +76,8 @@ ul{
 
 
 .main-header{
+	min-height:190px;
+
 	width:100%;
 	padding:45px 0;
 	margin-bottom:60px;
@@ -81,12 +85,13 @@ ul{
 }
 .main-header .container{
 	flex-wrap:wrap;
-	justify-content:space-around;
 
 }
 .main-header h1{
 	width:200px;
-	
+	margin-left:50px;
+	margin-right:70px;
+	margin-bottom:45px;
 
 	font-size:16px;
 	line-height:23px;
@@ -103,6 +108,7 @@ ul{
 	color:#32425c;
 
 	width:270px;
+	height:80px;
 }
 .main-header .number{
 	font-size:21px;
@@ -111,8 +117,13 @@ ul{
 	border:2px solid #ffffff;
 
 	width:270px;
+	height:17px;
+
+	padding-top:12px;
+	padding-bottom:12px;
 }
 .main-header p{
+	margin-top:7px;
 	padding:0 10px;
 }
 
@@ -121,13 +132,19 @@ ul{
 	display:flex;
 	justify-content:space-between;
 	align-items:flex-start;
+
 	width:280px;
+	height:21px;
+	margin-left:auto;
+	padding-top:12px;
+	padding-bottom:12px;
+
+	background-color:#ffffff
 }
 .login a{
 	font-size:21px;
 	line-height:21px;
 	color:#000000;
-	background-color:#ffffff
 }
 .login a:hover,
 .login a:focus{
@@ -140,6 +157,7 @@ ul{
 .main-menu ul{
 	display:flex;
 	justify-content:space-around;
+	min-height:40px;
 	width:940px;
 	padding:10px 0;
 	
@@ -162,6 +180,8 @@ ul{
 .about-us{
 	display:flex;
 	justify-content: space-between;
+
+	min-height:370px;
 	margin-bottom:85px;
 }
 
@@ -205,6 +225,7 @@ ul{
 
 .main-footer{
 	background-color:#32425c;
+	min-height:190px;
 }
 .main-footer {
 	font-size:18px;
@@ -221,6 +242,11 @@ ul{
 	justify-content:space-between;
 	margin:0;
 	margin-left:auto;
+}
+
+.main-footer .container{
+	min-height:65px;
+	padding-bottom:30px;
 }
 
 .main-footer-logo{
@@ -258,6 +284,7 @@ ul{
 
 .site-footer{
 	background-color:#293449;
+	min-height:105px;
 }
 .site-footer .container{
 	justify-content:space-between;
@@ -313,9 +340,23 @@ ul{
 	color:#000000;
 }
 
-.inner-page .login{
+.personal{
+	display:flex;
+	flex-direction:column;
+
+	font-size:14px;
+	line-height:24px;
+	color:#32425c;
+
 	width:300px;
-	flex-wrap:wrap;
+	height:80px;
+	margin-left:auto;
+}
+
+.personal p{
+	margin-top:7px;
+	padding:0 30px;
+	color:#32425c;
 }
 
 .login .username:hover,
@@ -325,10 +366,9 @@ ul{
 .login .username:active{
 	color:#b2b2b2;
 }
-.login .personal{
-	background-color:#f2f6f8;
+
 }
-.personal a{
+.personal .orders {
 	font-size:16px;
 	font-style:18px;
 	color:#32425c;
@@ -359,18 +399,21 @@ ul{
 	color:#000000;
 }
 
-.container h2{
+.inner-page h2{
 	font-size:30px;
 	line-height:30px;
 	color:#32425c;
+
 	background-color:#f2f6f8;
 	margin:0;
 	margin-bottom:20px;
-	width:940px;
+	padding:30px;
+	width:880px;
 }
 
 .filter{
 	width:220px;
+	min-height:500px;
 }
 
 .filter ul{
@@ -411,8 +454,6 @@ ul{
 .catalog-list{
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-between;
-    align-items:center;
 	margin:0;
 	padding:0;
 }
@@ -428,8 +469,12 @@ ul{
 	border:1px solid #e5e5e5;
 	text-align:center;
 	width:218px;
+	margin-right:20px;
 	margin-bottom:20px;
 	min-height:315px;
+}
+.catalog-item:nth-child(3n){
+	margin-right:0;
 }
 .catalog-category,
 .catalog-item-title{
