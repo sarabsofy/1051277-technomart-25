@@ -80,34 +80,24 @@
       	<legend>ПРОИЗВОДИТЕЛИ:</legend>
       	<ul class="brand">
       	<li class="list-item">
-	      	<label class="list-label">
-	      		<input type="checkbox" name="BOSCH" checked class="list-input hidden">
-	      		BOSCH
-	      		</label>
+	      	<input type="checkbox" name="BOSCH" class="list-input hidden" id="bosch" checked>
+	      	<label class="list-label" for="bosch">BOSCH</label>
 	      	</li>
       	<li class="list-item">
-	      	<label class="list-label">
-	      		<input type="checkbox" name="интерскол" class="list-input hidden">
-	      		ИНТЕРСКОЛ
-	      	 </label>
+	      	<input type="checkbox" name="интерскол" class="list-input hidden" id="enter">
+	      	<label class="list-label" for="enter">ИНТЕРСКОЛ</label>
 	      	</li>
 	     <li class="list-item">
-	      	<label class="list-label">
-	      		<input type="checkbox" name="makita" checked class="list-input hidden">
-	      		MAKITA
-	      	    </label>
+	      	<input type="checkbox" name="makita" checked class="list-input hidden" id="makita">
+	      	<label class="list-label" for="makita">MAKITA</label>
 	      	</li>
       	<li class="list-item">
-	      	<label class="list-label">
-	      		<input type="checkbox" name="dewalt" class="list-input hidden">
-	      		DEWALT
-	      		</label>
+	      	<input type="checkbox" name="dewalt" class="list-input hidden" id="dewalt">
+	      	<label class="list-label" for="dewalt">DEWALT</label>
 	      	</li>
       	<li class="list-item">
-	      	<label class="list-label">
-	      		<input type="checkbox" name="hitachi" class="list-input hidden">
-	      		HITACHI
-	      	    </label>
+	      	<input type="checkbox" name="hitachi" class="list-input hidden" id="hitachi">
+	      	<label class="list-label" for="hitachi">HITACHI</label>
 	      	</li>
       	  </ul>
       </fieldset>
@@ -115,16 +105,12 @@
       	<legend>ПИТАНИЕ:</legend>
       	<ul class="network">
       	<li class="list-item">
-	      	<label class="label-radio">
-	      		<input type="radio" name="radio" value="battery" checked class="list-input hidden">
-	      		АККУМУЛЯТОРНЫЕ
-	      		</label>
+	      	<input type="radio" name="radio" value="battery" checked class="list-input hidden" id="buttery">
+	      	<label class="label-radio" for="buttery">АККУМУЛЯТОРНЫЕ</label>
 	      	</li>
       	<li class="list-item">
-	      	<label class="label-radio">
-	      		<input type="radio" name="radio" value="network" class="list-input hidden">
-	      		СЕТЕВЫЕ
-	      		</label>
+      		<input type="radio" name="radio" value="network" class="list-input hidden" id="network">
+	      	<label class="label-radio" for="network">СЕТЕВЫЕ</label>
 	      	</li>
       	</ul>
       </fieldset>
@@ -354,13 +340,16 @@
      </div>
 	</footer>
 	<div class="popup-basket">
-		<button type="button" aria-label="Закрыть">
-			<img src="img/icon-close.svg" width="21" height="21">
-		</button>
-		<img src="img/icon-mark.svg" width="40" height="40">
-		<p>Товар добавлен в корзину!</p>
-		<a href="basket.html">ОФОРМИТЬ ЗАКАЗ</a>
-		<a href="catalog.html">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+		<div class="info">
+			<button type="button" aria-label="Закрыть" class="close">
+				<img src="img/icon-close.svg" width="21" height="21">
+			</button>
+			<p class="icon-mark">Товар добавлен в корзину!</p>
+	    </div>
+	    <div class="buttons">
+			<a href="basket.html" class="checkout">ОФОРМИТЬ ЗАКАЗ</a>
+			<a href="catalog.html" class="continue">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+	    </div>
 	</div>
   </body>
 </html>

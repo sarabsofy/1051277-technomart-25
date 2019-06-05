@@ -60,7 +60,7 @@
 				<p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
 				   Техномарт работает со многими транспортными компаниями:
 				</p>
-				<ul>
+				<ul class="partners">
 					<li>Деловые линии</li>
 					<li>Автотрейдинг</li>
 					<li>ЖелДорЭкспедиция</li>
@@ -74,31 +74,41 @@
 				</p>
 				<a href="#"><img src="img/map.jpg" width="300" height="160" alt="Схема проезда в «Техномарт»"></a>
 				<div class="map_popup">
-					<img src="img/map-popup.jpg" width="970" height="476">
+				   <div class="map-image">
+					<img src="img/map-popup.jpg" width="940" height="450" class="maps">
 					<button type="button" aria-label="Закрыть карту">
 						<img src="img/icon-close.svg" width="21" height="21">
 					</button>
+				  </div>
 				</div>
 				<a href="#" class="button btn-2">заблудились? напишите нам!</a>
 				<div class="modal-form">
-					<button type="button" aria-label="Закрыть">
+					<button type="button" aria-label="Закрыть" class="close">
 						<img src="img/icon-close.svg" width="21" height="21">
 					</button>
 					<form method="" action="">
-						<label>
-							Ваше имя:
-							<input type="text" name="name" placeholder="Имя Фамилия">
-						</label>
-						<label>
-							Ваш e-mail:
-							<input type="email" placeholder="email@example.com">
-						</label>
-						<label>
-							Текст письма:
-							<textarea name="mail" placeholder="В свободной форме"></textarea> 
-						</label>
-						<input type="submit" value="Отправить">
-					</form>
+					  	<ul class="write-us">
+					  		<li>
+							 <label>
+								Ваше имя:
+								<input type="text" name="name" placeholder="Имя Фамилия">
+							 </label>
+						    </li>
+						    <li>
+							 <label>
+								Ваш e-mail:
+								<input type="email" placeholder="email@example.com">
+							 </label>
+						    </li>
+						    <li>
+							 <label>
+								Текст письма:
+								<textarea name="mail" placeholder="В свободной форме"></textarea> 
+							</label>
+						</li>
+					  </ul>
+						<input type="submit" value="Отправить" class="form-submit">
+					  </form>
 				</div>
 			</section>
 		</section>
