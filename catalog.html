@@ -73,32 +73,37 @@
 	        <li class="breadcrumbs-current">ПЕРФОРАТОРЫ</li>
        </ul>
       <h2>ПЕРФОРАТОРЫ</h2>
-    </div>
-      <main class="container">
-       <form class="filter" method="" action="#">
-      	<fieldset>
-      	<legend>ПРОИЗВОДИТЕЛИ:</legend>
-      	<ul class="brand">
-      	<li class="list-item">
-	      	<input type="checkbox" name="BOSCH" class="list-input hidden" id="bosch" checked>
-	      	<label class="list-label" for="bosch">BOSCH</label>
-	      	</li>
-      	<li class="list-item">
-	      	<input type="checkbox" name="интерскол" class="list-input hidden" id="enter">
-	      	<label class="list-label" for="enter">ИНТЕРСКОЛ</label>
-	      	</li>
-	     <li class="list-item">
-	      	<input type="checkbox" name="makita" checked class="list-input hidden" id="makita">
-	      	<label class="list-label" for="makita">MAKITA</label>
-	      	</li>
-      	<li class="list-item">
-	      	<input type="checkbox" name="dewalt" class="list-input hidden" id="dewalt">
-	      	<label class="list-label" for="dewalt">DEWALT</label>
-	      	</li>
-      	<li class="list-item">
-	      	<input type="checkbox" name="hitachi" class="list-input hidden" id="hitachi">
-	      	<label class="list-label" for="hitachi">HITACHI</label>
-	      	</li>
+      </div>
+    <main class="container">
+    	<div class="catalog-filter">
+    	 <h3>фильтр:</h3>
+         <form class="filter" method="" action="#">
+       	 <fieldset>
+       		<legend>цена:</legend>
+       	 </fieldset>
+      	 <fieldset>
+      	  <legend>ПРОИЗВОДИТЕЛИ:</legend>
+	      	<ul class="brand">
+	      	<li class="list-item">
+		      	<input type="checkbox" name="BOSCH" class="list-input hidden" id="bosch" checked>
+		      	<label class="list-label" for="bosch">BOSCH</label>
+		      	</li>
+	      	<li class="list-item">
+		      	<input type="checkbox" name="интерскол" class="list-input hidden" id="enter">
+		      	<label class="list-label" for="enter">ИНТЕРСКОЛ</label>
+		      	</li>
+		     <li class="list-item">
+		      	<input type="checkbox" name="makita" checked class="list-input hidden" id="makita">
+		      	<label class="list-label" for="makita">MAKITA</label>
+		      	</li>
+	      	<li class="list-item">
+		      	<input type="checkbox" name="dewalt" class="list-input hidden" id="dewalt">
+		      	<label class="list-label" for="dewalt">DEWALT</label>
+		      	</li>
+	      	<li class="list-item">
+		      	<input type="checkbox" name="hitachi" class="list-input hidden" id="hitachi">
+		      	<label class="list-label" for="hitachi">HITACHI</label>
+		      	</li>
       	  </ul>
       </fieldset>
       <fieldset>
@@ -116,8 +121,17 @@
       </fieldset>
       	<button type="submit">Показать</button>
       </form>
+     </div>
       <section class="catalog">
-		<ul class="catalog-list">
+      	<div class="sorting">
+      		<h3>сортировка:</h3>
+      		<button>по цене</button>
+      		<button>по типу</button>
+      		<button>по функционалу</button>
+      		<button class="triangle up"></button>
+      		<button class="triangle down"></button>
+      	</div>
+      	<ul class="catalog-list">
 			<li class="catalog-item">
 		        <div class="actions">
 		          <a href="#" class="buy">Купить</a>
@@ -292,7 +306,14 @@
 		</ul>
 		</section>
 		</main>
-		<footer class="main-footer">
+	<section class="about-perforators">
+		<div class="container">
+			<h2>пара слов о перфораторах</h2>
+			<p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+			Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+		</div>
+	</section>
+	<footer class="main-footer">
 		  <div class="container">
 			<a class="main-footer-logo">
 			<img src="img/logo.svg" width="137" height="22" alt="Логотип интернет-магазина «Техномарт»">
@@ -318,7 +339,6 @@
 		</div>
 
 		</footer>
-	
 	<footer class="site-footer">
 	  <div class="container">
 		<p>©2010-2017 Компания «Техномарт» 

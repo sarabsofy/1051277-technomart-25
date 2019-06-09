@@ -935,7 +935,7 @@ ul{
 	color:#000000;
 }
 .deleted{
-	font-family:'PT Sans', Arial, sans-serif;
+	font-family:"PT Sans", Arial, sans-serif;
 	font-size:17px;
 	line-height:18px;
 	font-weight:bold;
@@ -1747,4 +1747,122 @@ ul{
 .slide.credit .slider-button:active{
 	color:#ffffff;
 	background-color:#ba2732;
+}
+
+
+.about-perforators{
+	background-color:#f2f6f8;
+}
+.about-perforators h2{
+	width:100%;
+	font-size:30px;
+	line-height:30px;
+	color:#000000;
+	font-weight:normal;
+	text-transform:uppercase;
+
+	margin:0;
+	padding:0;
+	margin-bottom:25px;
+	margin-top:65px;
+}
+.about-perforators p{
+	font-size:13px;
+	line-height:24px;
+	color:#000000;
+
+	margin:0;
+	padding:0;
+	margin-bottom:70px;
+	}
+
+
+.catalog-filter h3{
+	font-size:13px;
+	line-height:18px;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family:"PT Sans", Arial, sans-serif;
+
+	padding:0;
+	margin:0;
+	padding-left:20px;
+	padding-top:12px;
+	padding-bottom:11px;
+	margin-bottom:20px;
+	
+	border-radius:4px;
+	background-color:#f7f3ec;
+}
+
+.sorting{
+	display:flex;
+	font-size:13px;
+	line-height:18px;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family:"PT Sans", Arial, sans-serif;
+
+	padding-left:20px;
+	padding-top:12px;
+	padding-bottom:11px;
+	margin-bottom:20px;
+	
+	border-radius:4px;
+	background-color:#f7f3ec;
+}
+.sorting h3,
+.sorting button{
+	padding:0;
+	margin:0;
+	font-size:13px;
+	line-height:18px;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family:"PT Sans", Arial, sans-serif;
+	border:none;
+	background:transparent;
+}
+.sorting h3{
+	padding-right:120px;
+}
+.sorting button:not(.triangle){
+	color:#b2b2b2;
+	border-bottom:1px dotted #ee3643;
+	margin-left:20px;
+	margin-right:46px;
+}
+.sorting button:hover:not(.triangle),
+.sorting button:focus:not(.triangle){
+	border-bottom:1px solid #ee3643;
+	color:#000000;
+}
+.sorting button:active:not(.triangle){
+	color:#ee3643;
+	border:none;
+}
+
+.sorting .triangle{
+	width:1px;
+	height:1px;
+
+	border:6px solid #c5c5c5;
+	border-top-width:0px;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-bottom-width:11px;
+
+	margin-right:18px;
+	margin-top:5px;
+}
+.triangle.down{
+	transform:rotate(180deg);
+}
+
+.sorting .triangle:hover,
+.sorting .triangle:focus{
+	border-bottom-color:#000000;
+}
+.sorting .triangle:active{
+	border-bottom-color:#ee3643;
 }
