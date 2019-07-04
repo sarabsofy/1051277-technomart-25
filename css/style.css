@@ -43,12 +43,14 @@ a {
 .search__input {
   font-size: 17px;
   line-height: 18px;
-  height: 26px;
+  height: calc(100% - 5px);
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
   background: transparent;
   border: none;
   padding: 0 0 0 49px;
   width: inherit;
-  min-height: 42.33px;
   outline: none;
   color: #ffffff;
 }
